@@ -1,154 +1,154 @@
-export const characters = [
+const ogCharacters = [
     {
         name: "Ana",
-        image: "./characters/images/ana.png",
+        imageSrc: "./characters/images/ana.png",
         role: "Support"
     }, {
         name: "Ashe",
-        image: "./characters/images/ashe.png",
+        imageSrc: "./characters/images/ashe.png",
         role: "Damage"
     }, {
         name: "Baptiste",
-        image: "./characters/images/baptiste.png",
+        imageSrc: "./characters/images/baptiste.png",
         role: "Support"
     }, {
         name: "Bastion",
-        image: "./characters/images/bastion.png",
+        imageSrc: "./characters/images/bastion.png",
         role: "Damage"
     }, {
         name: "Brigitte",
-        image: "./characters/images/brigitte.png",
+        imageSrc: "./characters/images/brigitte.png",
         role: "Support"
     }, {
         name: "Cassidy",
-        image: "./characters/images/cassidy.png",
+        imageSrc: "./characters/images/cassidy.png",
         role: "Damage"
     }, {
         name: "Doomfist",
-        image: "./characters/images/doomfist.png",
+        imageSrc: "./characters/images/doomfist.png",
         role: "Tank"
     }, {
         name: "D.Va",
-        image: "./characters/images/dva.png",
+        imageSrc: "./characters/images/dva.png",
         role: "Tank"
     }, {
         name: "Echo",
-        image: "./characters/images/echo.png",
+        imageSrc: "./characters/images/echo.png",
         role: "Damage"
     }, {
         name: "Genji",
-        image: "./characters/images/genji.png",
+        imageSrc: "./characters/images/genji.png",
         role: "Damage"
     }, {
         name: "Hanzo",
-        image: "./characters/images/hanzo.png",
+        imageSrc: "./characters/images/hanzo.png",
         role: "Damage"
     }, {
         name: "Illari",
-        image: "./characters/images/illari.png",
+        imageSrc: "./characters/images/illari.png",
         role: "Support"
     }, {
         name: "Junker Queen",
-        image: "./characters/images/junkerqueen.png",
+        imageSrc: "./characters/images/junkerqueen.png",
         role: "Tank"
     }, {
         name: "Junkrat",
-        image: "./characters/images/junkrat.png",
+        imageSrc: "./characters/images/junkrat.png",
         role: "Damage"
     }, {
         name: "Kiriko",
-        image: "./characters/images/kiriko.png",
+        imageSrc: "./characters/images/kiriko.png",
         role: "Support"
     }, {
         name: "Lifeweaver",
-        image: "./characters/images/lifeweaver.png",
+        imageSrc: "./characters/images/lifeweaver.png",
         role: "Support"
     }, {
         name: "Lúcio",
-        image: "./characters/images/lucio.png",
+        imageSrc: "./characters/images/lucio.png",
         role: "Support"
     }, {
         name: "Mei",
-        image: "./characters/images/mei.png",
+        imageSrc: "./characters/images/mei.png",
         role: "Damage"
     }, {
         name: "Mercy",
-        image: "./characters/images/mercy.png",
+        imageSrc: "./characters/images/mercy.png",
         role: "Support"
     }, {
         name: "Moira",
-        image: "./characters/images/moira.png",
+        imageSrc: "./characters/images/moira.png",
         role: "Support"
     }, {
         name: "Orisa",
-        image: "./characters/images/orisa.png",
+        imageSrc: "./characters/images/orisa.png",
         role: "Tank"
     }, {
         name: "Pharah",
-        image: "./characters/images/pharah.png",
+        imageSrc: "./characters/images/pharah.png",
         role: "Damage"
     }, {
         name: "Ramattra",
-        image: "./characters/images/ramattra.png",
+        imageSrc: "./characters/images/ramattra.png",
         role: "Damage"
     }, {
         name: "Reaper",
-        image: "./characters/images/reaper.png",
+        imageSrc: "./characters/images/reaper.png",
         role: "Damage"
     }, {
         name: "Reinhardt",
-        image: "./characters/images/reinhardt.png",
+        imageSrc: "./characters/images/reinhardt.png",
         role: "Tank"
     }, {
         name: "Roadhog",
-        image: "./characters/images/roadhog.png",
+        imageSrc: "./characters/images/roadhog.png",
         role: "Tank"
     }, {
         name: "Sigma",
-        image: "./characters/images/sigma.png",
+        imageSrc: "./characters/images/sigma.png",
         role: "Tank"
     }, {
         name: "Sojourn",
-        image: "./characters/images/sojourn.png",
+        imageSrc: "./characters/images/sojourn.png",
         role: "Damage"
     }, {
         name: "Soldier: 76",
-        image: "./characters/images/soldier76.png",
+        imageSrc: "./characters/images/soldier76.png",
         role: "Damage"
     }, {
         name: "Sombra",
-        image: "./characters/images/sombra.png",
+        imageSrc: "./characters/images/sombra.png",
         role: "Damage"
     }, {
         name: "Symmetra",
-        image: "./characters/images/symmetra.png",
+        imageSrc: "./characters/images/symmetra.png",
         role: "Damage"
     }, {
         name: "Torbjörn",
-        image: "./characters/images/torbjorn.png",
+        imageSrc: "./characters/images/torbjorn.png",
         role: "Damage"
     }, {
         name: "Tracer",
-        image: "./characters/images/tracer.png",
+        imageSrc: "./characters/images/tracer.png",
         role: "Damage"
     }, {
         name: "Widowmaker",
-        image: "./characters/images/widowmaker.png",
+        imageSrc: "./characters/images/widowmaker.png",
         role: "Damage"
     }, {
         name: "Winston",
-        image: "./characters/images/winston.png",
+        imageSrc: "./characters/images/winston.png",
         role: "Tank"
     }, {
         name: "Wrecking Ball",
-        image: "./characters/images/wreckingball.png"
+        imageSrc: "./characters/images/wreckingball.png"
     }, {
         name: "Zarya",
-        image: "./characters/images/zarya.png",
+        imageSrc: "./characters/images/zarya.png",
         role: "Tank"
     }, {
         name: "Zenyatta",
-        image: "./characters/images/zenyatta.png",
+        imageSrc: "./characters/images/zenyatta.png",
         role: "Support"
     }
 ]
