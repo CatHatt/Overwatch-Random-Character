@@ -7,8 +7,8 @@ const IMAGE_SIZE = {
     HEIGHT: 256
 }
 let speed = 0.01;
-let characters = [];
-let currentCharacters = [];
+const characters = [];
+const currentCharacters = [];
 let offset = 0;
 
 
